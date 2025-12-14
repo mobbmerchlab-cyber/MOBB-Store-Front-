@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>MOBB — Modern Outfits Beyond Basics</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="p-6 text-center fade-up">
+  <h1 class="text-4xl font-bold">MOBB</h1>
+  <p class="text-gray-500 mt-2">Modern Outfits Beyond Basics</p>
+</header>
+
+<nav class="p-4 flex justify-end">
+  <button id="cart-btn" class="px-4 py-2 bg-black text-white rounded">
+    Cart (<span id="cart-count">0</span>)
+  </button>
+</nav>
+
+<section id="products" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6"></section>
+
+<script src="app.js"></script>
+</body>
+</html>
